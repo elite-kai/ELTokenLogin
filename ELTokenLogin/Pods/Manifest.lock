@@ -1,0 +1,40 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - MJExtension (3.0.13)
+  - TencentOpenApiSDK (2.9.5):
+    - TencentOpenApiSDK/Basic (= 2.9.5)
+  - TencentOpenApiSDK/Basic (2.9.5)
+  - WeChat (1.0.1)
+  - Weibo (2.4.2)
+
+DEPENDENCIES:
+  - AFNetworking
+  - MJExtension
+  - TencentOpenApiSDK
+  - WeChat
+  - Weibo
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  TencentOpenApiSDK: a0d7716edd6eb438d65828168e8e5137301b436d
+  WeChat: 93915b3be360b5bdfe48e8a9d64ff0315a28c240
+  Weibo: ed569ffed6eb043a159ac3b01dc5122b4e1fd77a
+
+PODFILE CHECKSUM: 7c30840512657d2ad148f1738b543e368147fed2
+
+COCOAPODS: 1.2.1

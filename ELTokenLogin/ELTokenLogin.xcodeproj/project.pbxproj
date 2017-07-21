@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFFDC7A53CFD36EC17C2C33A /* Pods_ELTokenLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD649B429658C95BD3A751EB /* Pods_ELTokenLogin.framework */; };
+		D417B8981F208533002D9D50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D417B8971F208533002D9D50 /* main.m */; };
+		D417B89B1F208533002D9D50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D417B89A1F208533002D9D50 /* AppDelegate.m */; };
+		D417B89E1F208533002D9D50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D417B89D1F208533002D9D50 /* ViewController.m */; };
+		D417B8A11F208533002D9D50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D417B89F1F208533002D9D50 /* Main.storyboard */; };
+		D417B8A31F208533002D9D50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D417B8A21F208533002D9D50 /* Assets.xcassets */; };
+		D417B8A61F208533002D9D50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D417B8A41F208533002D9D50 /* LaunchScreen.storyboard */; };
+		D466B24A1F20B7E2003E03BF /* ELLoginApi.m in Sources */ = {isa = PBXBuildFile; fileRef = D466B23C1F20B7E2003E03BF /* ELLoginApi.m */; };
+		D466B24B1F20B7E2003E03BF /* ELNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = D466B2401F20B7E2003E03BF /* ELNetwork.m */; };
+		D466B24C1F20B7E2003E03BF /* ELQQLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = D466B2431F20B7E2003E03BF /* ELQQLogin.m */; };
+		D466B24D1F20B7E2003E03BF /* ELTokenLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = D466B2451F20B7E2003E03BF /* ELTokenLogin.m */; };
+		D466B24E1F20B7E2003E03BF /* ELWBLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = D466B2471F20B7E2003E03BF /* ELWBLogin.m */; };
+		D466B24F1F20B7E2003E03BF /* ELWCLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = D466B2491F20B7E2003E03BF /* ELWCLogin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47357275DB056BB06951C96B /* Pods-ELTokenLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELTokenLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-ELTokenLogin/Pods-ELTokenLogin.release.xcconfig"; sourceTree = "<group>"; };
+		702813FD04FBA97C5FDDB038 /* Pods-ELTokenLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELTokenLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ELTokenLogin/Pods-ELTokenLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		BD649B429658C95BD3A751EB /* Pods_ELTokenLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ELTokenLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D417B8931F208533002D9D50 /* ELTokenLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELTokenLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D417B8971F208533002D9D50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D417B8991F208533002D9D50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D417B89A1F208533002D9D50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D417B89C1F208533002D9D50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D417B89D1F208533002D9D50 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D417B8A01F208533002D9D50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D417B8A21F208533002D9D50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D417B8A51F208533002D9D50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D417B8A71F208533002D9D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4350AC91F2096D900806F25 /* ELLogin.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELLogin.pch; sourceTree = "<group>"; };
+		D466B23B1F20B7E2003E03BF /* ELLoginApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELLoginApi.h; sourceTree = "<group>"; };
+		D466B23C1F20B7E2003E03BF /* ELLoginApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELLoginApi.m; sourceTree = "<group>"; };
+		D466B23D1F20B7E2003E03BF /* ELLoginHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELLoginHead.h; sourceTree = "<group>"; };
+		D466B23F1F20B7E2003E03BF /* ELNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNetwork.h; sourceTree = "<group>"; };
+		D466B2401F20B7E2003E03BF /* ELNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNetwork.m; sourceTree = "<group>"; };
+		D466B2421F20B7E2003E03BF /* ELQQLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELQQLogin.h; sourceTree = "<group>"; };
+		D466B2431F20B7E2003E03BF /* ELQQLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELQQLogin.m; sourceTree = "<group>"; };
+		D466B2441F20B7E2003E03BF /* ELTokenLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELTokenLogin.h; sourceTree = "<group>"; };
+		D466B2451F20B7E2003E03BF /* ELTokenLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELTokenLogin.m; sourceTree = "<group>"; };
+		D466B2461F20B7E2003E03BF /* ELWBLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELWBLogin.h; sourceTree = "<group>"; };
+		D466B2471F20B7E2003E03BF /* ELWBLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELWBLogin.m; sourceTree = "<group>"; };
+		D466B2481F20B7E2003E03BF /* ELWCLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELWCLogin.h; sourceTree = "<group>"; };
+		D466B2491F20B7E2003E03BF /* ELWCLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELWCLogin.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D417B8901F208533002D9D50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFDC7A53CFD36EC17C2C33A /* Pods_ELTokenLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D346371A66921AB6EC67741 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				702813FD04FBA97C5FDDB038 /* Pods-ELTokenLogin.debug.xcconfig */,
+				47357275DB056BB06951C96B /* Pods-ELTokenLogin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8250DC1790C5E6DEAD6138F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD649B429658C95BD3A751EB /* Pods_ELTokenLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D417B88A1F208532002D9D50 = {
+			isa = PBXGroup;
+			children = (
+				D417B8951F208533002D9D50 /* ELTokenLogin */,
+				D417B8941F208533002D9D50 /* Products */,
+				0D346371A66921AB6EC67741 /* Pods */,
+				8250DC1790C5E6DEAD6138F9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D417B8941F208533002D9D50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D417B8931F208533002D9D50 /* ELTokenLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D417B8951F208533002D9D50 /* ELTokenLogin */ = {
+			isa = PBXGroup;
+			children = (
+				D417B8991F208533002D9D50 /* AppDelegate.h */,
+				D417B89A1F208533002D9D50 /* AppDelegate.m */,
+				D417B89C1F208533002D9D50 /* ViewController.h */,
+				D417B89D1F208533002D9D50 /* ViewController.m */,
+				D4350AC91F2096D900806F25 /* ELLogin.pch */,
+				D466B23A1F20B7E2003E03BF /* ELLoginApi */,
+				D466B23E1F20B7E2003E03BF /* ELNetwork */,
+				D466B2411F20B7E2003E03BF /* ELTokenLogin */,
+				D417B89F1F208533002D9D50 /* Main.storyboard */,
+				D417B8A21F208533002D9D50 /* Assets.xcassets */,
+				D417B8A41F208533002D9D50 /* LaunchScreen.storyboard */,
+				D417B8A71F208533002D9D50 /* Info.plist */,
+				D417B8961F208533002D9D50 /* Supporting Files */,
+			);
+			path = ELTokenLogin;
+			sourceTree = "<group>";
+		};
+		D417B8961F208533002D9D50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D417B8971F208533002D9D50 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D466B23A1F20B7E2003E03BF /* ELLoginApi */ = {
+			isa = PBXGroup;
+			children = (
+				D466B23D1F20B7E2003E03BF /* ELLoginHead.h */,
+				D466B23B1F20B7E2003E03BF /* ELLoginApi.h */,
+				D466B23C1F20B7E2003E03BF /* ELLoginApi.m */,
+			);
+			path = ELLoginApi;
+			sourceTree = "<group>";
+		};
+		D466B23E1F20B7E2003E03BF /* ELNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				D466B23F1F20B7E2003E03BF /* ELNetwork.h */,
+				D466B2401F20B7E2003E03BF /* ELNetwork.m */,
+			);
+			path = ELNetwork;
+			sourceTree = "<group>";
+		};
+		D466B2411F20B7E2003E03BF /* ELTokenLogin */ = {
+			isa = PBXGroup;
+			children = (
+				D466B2441F20B7E2003E03BF /* ELTokenLogin.h */,
+				D466B2451F20B7E2003E03BF /* ELTokenLogin.m */,
+				D466B2421F20B7E2003E03BF /* ELQQLogin.h */,
+				D466B2431F20B7E2003E03BF /* ELQQLogin.m */,
+				D466B2481F20B7E2003E03BF /* ELWCLogin.h */,
+				D466B2491F20B7E2003E03BF /* ELWCLogin.m */,
+				D466B2461F20B7E2003E03BF /* ELWBLogin.h */,
+				D466B2471F20B7E2003E03BF /* ELWBLogin.m */,
+			);
+			path = ELTokenLogin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D417B8921F208533002D9D50 /* ELTokenLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D417B8AA1F208533002D9D50 /* Build configuration list for PBXNativeTarget "ELTokenLogin" */;
+			buildPhases = (
+				AE1EA95CEE90FCEB50D83386 /* [CP] Check Pods Manifest.lock */,
+				D417B88F1F208533002D9D50 /* Sources */,
+				D417B8901F208533002D9D50 /* Frameworks */,
+				D417B8911F208533002D9D50 /* Resources */,
+				17D5E56822DCA12F370C55F7 /* [CP] Embed Pods Frameworks */,
+				963392979986B41B6EA6E90A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ELTokenLogin;
+			productName = ELTokenLogin;
+			productReference = D417B8931F208533002D9D50 /* ELTokenLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D417B88B1F208532002D9D50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Parkin;
+				TargetAttributes = {
+					D417B8921F208533002D9D50 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D417B88E1F208532002D9D50 /* Build configuration list for PBXProject "ELTokenLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D417B88A1F208532002D9D50;
+			productRefGroup = D417B8941F208533002D9D50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D417B8921F208533002D9D50 /* ELTokenLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D417B8911F208533002D9D50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D417B8A61F208533002D9D50 /* LaunchScreen.storyboard in Resources */,
+				D417B8A31F208533002D9D50 /* Assets.xcassets in Resources */,
+				D417B8A11F208533002D9D50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17D5E56822DCA12F370C55F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ELTokenLogin/Pods-ELTokenLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		963392979986B41B6EA6E90A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ELTokenLogin/Pods-ELTokenLogin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE1EA95CEE90FCEB50D83386 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D417B88F1F208533002D9D50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D417B89E1F208533002D9D50 /* ViewController.m in Sources */,
+				D466B24F1F20B7E2003E03BF /* ELWCLogin.m in Sources */,
+				D466B24E1F20B7E2003E03BF /* ELWBLogin.m in Sources */,
+				D417B89B1F208533002D9D50 /* AppDelegate.m in Sources */,
+				D466B24B1F20B7E2003E03BF /* ELNetwork.m in Sources */,
+				D466B24D1F20B7E2003E03BF /* ELTokenLogin.m in Sources */,
+				D417B8981F208533002D9D50 /* main.m in Sources */,
+				D466B24C1F20B7E2003E03BF /* ELQQLogin.m in Sources */,
+				D466B24A1F20B7E2003E03BF /* ELLoginApi.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D417B89F1F208533002D9D50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D417B8A01F208533002D9D50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D417B8A41F208533002D9D50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D417B8A51F208533002D9D50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D417B8A81F208533002D9D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D417B8A91F208533002D9D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D417B8AB1F208533002D9D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 702813FD04FBA97C5FDDB038 /* Pods-ELTokenLogin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yang yun (69LUFC46KC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = /Users/Liuminglu/Desktop/ELTokenLogin/ELTokenLogin/ELLogin.pch;
+				INFOPLIST_FILE = ELTokenLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duobao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Debug;
+		};
+		D417B8AC1F208533002D9D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47357275DB056BB06951C96B /* Pods-ELTokenLogin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: yang yun (59GXZM39LM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = /Users/Liuminglu/Desktop/ELTokenLogin/ELTokenLogin/ELLogin.pch;
+				INFOPLIST_FILE = ELTokenLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duobao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D417B88E1F208532002D9D50 /* Build configuration list for PBXProject "ELTokenLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D417B8A81F208533002D9D50 /* Debug */,
+				D417B8A91F208533002D9D50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D417B8AA1F208533002D9D50 /* Build configuration list for PBXNativeTarget "ELTokenLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D417B8AB1F208533002D9D50 /* Debug */,
+				D417B8AC1F208533002D9D50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D417B88B1F208532002D9D50 /* Project object */;
+}
